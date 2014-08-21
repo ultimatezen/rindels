@@ -1,0 +1,6 @@
+# Default config
+
+
+# Server settings
+server:
+    port: 3000
