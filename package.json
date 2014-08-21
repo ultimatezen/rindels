@@ -1,0 +1,32 @@
+{
+	"name": "Rindels",
+	"description": "Node API server",
+	"version": "0.0.1",
+	"repository": "git@github.com:ultimatezen/rindels.git",
+	"author": "Tien Le",
+	"maintainers": [
+		{ "name": "Tien Le", "email": "tien.le.in.jp@gmail.com" }
+	],
+	"license": "MIT",
+	"main": "index.js",
+	"scripts": {
+		"test": "make test"
+	},
+	"engines": {
+		"node": "0.11.12"
+	},
+	"dependencies": {
+		"async": "0.2.9",
+        "js-yaml": "3.0.2",
+		"config": "0.4.35",
+        "koa": "0.5.5",
+        "koa-routing": "*",
+        "koa-body": "*"
+	},
+	"devDependencies": {
+		"jshint": "2.5.0",
+		"mocha": "1.12.1",
+		"should": "3.3.1",
+        "tv4": "1.0.16"
+	}
+}
